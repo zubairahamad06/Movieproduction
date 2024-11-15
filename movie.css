@@ -1,0 +1,337 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111928;
+}
+.heroimage{
+    background: url(./hero\ 2.jpg) no-repeat ;
+    padding: 300px 0;
+    background-size: cover;
+    
+}
+
+
+.headermain{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 450px; */
+    gap: 350px;
+
+}
+.header{
+    display: flex;
+    gap: 70px;
+}
+.header li{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.header li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.images{
+    
+}
+
+.item{
+    width: 1000px;
+   /* padding: 50px; */
+   /* row-gap: 80px; */
+   margin-top: 20px;
+   margin-left: 250px;
+}
+#c4{
+    height: 73vmin;
+}
+.cardimg:active{
+    cursor: grabbing;
+}
+.cardimg :hover{
+    border-color: black;
+}
+.swiper-button-prev{
+    color: black;
+    background-color: none;
+    border: 2px solid black;
+    
+}
+.cardwrapper{
+    animation: slide 10s infinite;
+}
+
+/* @keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}  */
+
+/* -----------RECENT RELEASE ----------------*/
+
+
+/* .rrimgwrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.rr h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+.rr{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.rrimg{
+    width: 300px;
+    
+}
+.rrimgwrapper ul{
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.rritem img{
+    width: 300px;
+}
+.rritem{
+    display: flex;
+    gap: 30px;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+   
+}
+.multiple-items img{
+    width: 1300px;
+    padding: 0 30px;
+}
+.slick-prev{
+   color: black;
+}
+.rrimg{
+    border-radius: 30px;
+}
+
+
+/* .swiper-button-prev,.swiper-button-next{
+    display: none;
+} */
+/* @media screen and (max-width: 768px){
+    .cardwrapper{
+        margin: 0 10px 25px;
+    }
+    .cardwrapper .swiper-slide{
+        display: none;
+    }
+} */
+
+
+
+
+.lm{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 50px;
+    padding-left: 280px;
+    margin-left: 350px;
+    font-stretch: extra-expanded;
+
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.body1{
+    /* background-image: linear-gradient(to right, #00416a , #e4e5e6); */
+    color: #212121;
+    font-size: 12px;
+    min-height: 100%;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+/* margin-bottom: 1400px; */
+}
+/* .rotate{
+    margin-bottom: 800px;
+} */
+
+.section-header {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+section {
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+a, a:link, a:visited {
+    color: #212121;
+    text-decoration: none;
+}
+
+.Carousel-slider {
+    height: 560px;
+    position: relative;
+    width: 100%;
+}
+
+.Carousel-slider.fullwidth {
+    height: 500px;
+}
+
+.Carousel-slider.fullwidth .slider-item {
+    height: 480px;
+    line-height: 480px;
+    width: 100%
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: 0 50%;
+	perspective: 800px  !important;
+}
+
+.slider-item {
+    box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.12);
+    display: none;
+    height: 320px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 320px;
+    cursor: pointer;
+	/* border: 5px solid #ffc107; */
+}
+
+.indicators {
+	top: 0;
+    left: 50%;
+    padding: 0;
+    list-style-type: none;
+    margin: 40px 0 0 -77px;
+    position: absolute;
+}
+
+.indicators li {
+    color: #255f8b;
+    float: left;
+    height: 16px;
+    margin-right: 8px;
+    text-align: center;
+    width: 16px;
+}
+
+/* .indicators li:last-child {margin: 0;}
+.indicators a {
+    background: #00416a;
+    border-radius: 8px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+} */
+
+.indicators .active a {
+	background: #e4e5e6;
+
+}
+.superHero1 {background: url(./rot1.jpg); border-radius: 5px !important; background-size: cover;}
+.superHero2 {background: url(./rot2.jpg);border-radius: 5px !important;background-size: cover;}
+.superHero3 {background: url(./rot3.jpg);border-radius: 5px !important;background-size: cover;}
+.superHero4 {background: url(./rot1.jpg); border-radius: 5px !important;background-size: cover;}
+.superHero5 {background: url(./rot2.jpg);border-radius: 5px !important;background-size: cover;}
+.superHero6 {background: url(./rot3.jpg);border-radius: 5px !important;background-size: cover;}
+.superHero7 {background: url(./rot2.jpg); border-radius: 5px !important;background-size: cover;}
+
+.ur h3{
+    color: white;
+    padding-left: 350px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 50px;
+    padding-left: 280px;
+    margin-left: 350px;
+    font-stretch: extra-expanded;
+}
+
+
+
+/* YOUTUBE VIDEO */
+/* YOUTUBE VIDEO */
+/* YOUTUBE VIDEO */
+
+
+.utube h3{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 30px;
+    margin-left: 350px;
+    font-stretch: extra-expanded;
+}
+.utube{
+    margin-left: 350px;
+    padding-bottom: 800px;
+  
+}
